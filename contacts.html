@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Starlight Software</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <!--TOPBAR-->
+    <div id="contacts">
+
+      <!--NAVBAR-->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" alt="Starlight Software Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacts.html">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href"./index.html">home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a href"./contacts.html">contact</a></li>
+        </ol>
+      </nav>
+      <div class="row">
+        <div class="col-1	col-sm-1 col-md-1	col-lg-1 col-xl-2">
+        </div>
+        <div class="col-7 col-sm-8	col-md-6 col-lg-6 col-xl-5 text_team">
+          <h1>We would love  <br> to hear from you.</h1>
+          <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Your name:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Your e-mail address:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johndoe@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Subject:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="My company needs your services">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Your message:</label>
+                <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="My company needs your services"></textarea>
+            </div>
+            <div class="d-flex justify-content-end">
+                <button id="send" type="button" class="btn center">Send</button>
+            </div>
+           </form>
+        </div>
+        <div class="col-4 col-sm-3 col-md-3	col-lg-3 col-xl-4">
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/main.js">
+
+    </script>
+  </body>
+
+
+  <footer>
+      <div class="row" id="logos">
+          <div class="col-1">
+          </div>
+          <div class="col-6 row">
+          <img src="./images/uporto.png" alt="UPorto Logos" id="upImg">
+          <img src="./images/lgpchallenge.png" alt="LGP Logo" id="lgpChaImg">
+          </div>
+          <div class="col-4 row d-flex justify-content-end">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-instagram"></i>
+          </div>
+          <div class="col-1">
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-1">
+          </div>
+          <div class="col-6" id="footerText">
+            <p>&copy; Starlight Software - 2019</p>
+          </div>
+          <div class="col-5">
+          </div>
+      </div>
+      <div class="row" id="lastRow">
+        <div class="col-1">
+        </div>
+        <div class="col-6">
+          <p>Faculdade de Engenharia da Universidade do Porto - Laboratório de Gestão do Projeto</p>
+        </div>
+        <div class="col-4 d-flex justify-content-end" id="links">
+            <a href="./index.html">Home</a>
+            <h6> / &nbsp;</h6>
+            <a href="./about.html">About</a>
+            <h6> / &nbsp;</h6>
+            <a href="#topbar">Team</a>
+            <h6> / &nbsp;</h6>
+            <a href="./projects.html">Projects</a>
+            <h6> / &nbsp;</h6>
+            <a href="./contacts.html">Contact</a>
+        </div>
+        <div class="col-1">
+        </div>
+      </div>  
+    </footer>
+</html>

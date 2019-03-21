@@ -1,0 +1,402 @@
+html {
+overflow: scroll;
+overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+width: 0px; /* remove scrollbar space */
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto-Bold'
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+/*NAVBAR*/
+
+#topbar {
+  background: url("../images/index_background.png")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white!important;
+}
+
+#topbar .navbar {
+  background: url("../images/index_background.png")no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+a.nav-link {
+  color: white!important;
+}
+
+.navbar-brand {
+  padding-left: 10em;
+}
+
+.navbar-brand img {
+  width: 10em;
+}
+
+.navbar-collapse {
+  padding-right: 10em;
+}
+
+.navbar a {
+  font-size: 12pt;
+  font-family: 'OpenSans';
+}
+
+#description {
+  padding-top: 7.5em;
+  padding-bottom: 2.5em;
+}
+
+#description #discover {
+  background-color: #e40057;
+  border-color: #e40057;
+  border-radius: 0;
+  color: white;
+  margin-top: 1em;
+}
+
+#description p {
+  font-family: 'OpenSans';
+  font-size: 12pt;
+}
+
+#about h1{
+  padding-top: 5%;
+  padding-bottom: 10em;
+
+}
+
+#arrow_div {
+  padding-bottom: 2.5em;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 7.5px 7.5px 0;
+  display: inline-block;
+  padding: 7.5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  opacity: 0.5;
+
+}
+
+.breadcrumb{
+  background-color: transparent;
+  margin-left: 19%;
+  margin-top: 5%;
+}
+.breadcrumb li.active{
+  color: white;
+}
+/*PROJECTS CARDS*/
+
+
+#projects .col-1 {
+  padding: 0;
+}
+
+#projects .col-10 {
+  padding: 0;
+}
+
+#projects .card-text {
+  font-family: 'OpenSans';
+  color: rgb(21,21,21);
+  font-size: 12pt;
+}
+
+#projects .row:first-child {
+  padding: 2%;
+}
+
+#projects .card-title{
+  color: rgb(21,21,21);
+  font-family: 'Roboto-Bold';
+  font-size: 20pt;
+}
+
+
+
+/*PRJECTS PAGE*/
+
+#page_projects{
+  background-color: rgb(45,27,55);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white!important;
+}
+
+#page_projects .navbar {
+  background-color: inherit!important;
+}
+
+.text_team{
+  margin-right: 2%;
+}
+#teamA{
+padding: 2% 5% 8% 5%;
+}
+
+#teamB{
+  padding: 8%;
+}
+
+#teamC{
+  padding: 8%;
+  background-color: rgb(255, 238, 226);
+
+}
+
+#teamD{
+  padding: 8%;
+  background-color: rgb(241, 87, 87);
+}
+#teamD {
+  color: white;
+}
+
+.img_projects{
+  width: 100%;
+  height: auto;
+}
+
+#followTeamA{
+  background-color: rgb(228,0,88);
+  color: white;
+  width: 100%;
+
+}
+
+#followTeamB{
+  background-color: rgb(33, 206, 192);
+  color: white;
+  width: 100%;
+
+}
+
+
+#followTeamC{
+  background-color: rgb(142, 87, 189);
+  color: white;
+  width: 100%;
+
+}
+
+#followTeamD{
+  background-color:  rgb(255, 192, 0);
+  color: white;
+  width: 100%;
+
+}
+
+
+/*COMPANIES*/
+
+#companies {
+  background-color: #fafafa;
+  margin-top: 5em;
+  padding-bottom: 2.5em;
+}
+
+#companies div {
+  padding-top: 2em;
+}
+
+#companies #something {
+  background-color: #e40057;
+  border-color: #e40057;
+  border-radius: 0;
+  color: white;
+  margin-top: 1em;
+}
+
+#companies p {
+  font-family: 'OpenSans';
+  font-size: 12pt;
+}
+
+#companies h2 {
+  font-family: 'Roboto-Bold';
+  font-size: 24pt;
+}
+
+/* ABOUT US PAGE */
+
+#about {
+  background: url("../images/index_background.png")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white!important;
+}
+
+#about .navbar {
+  background-color: inherit!important;
+}
+
+#about #aboutUs {
+  background-color: inherit!important;
+}
+
+#aboutText {
+  background-color: white;
+  color: rgb(21,21,21);
+  padding: 15%;
+}
+
+
+/* CONTACTS PAGE */
+
+#contacts{
+  background-color: rgb(45,27,55);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white!important;
+}
+
+.navbar {
+  background-color: inherit!important;
+}
+#contacts form{
+  padding: 5% 0 5% 0;
+}
+
+#contacts #send{
+  background-color:  rgb(228,0,88);
+  color: white;
+  width: 30%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+#contacts .form-group{
+  margin-top: 5%;
+}
+
+#contacts .text_team form {
+  font-size: 14pt;
+  font-style: italic;
+  font-family: 'OpenSans';
+}
+
+#contacts .text_team form button {
+  font-size: 14pt;
+  font-family: 'Roboto';
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: rgb(48,48,48);
+  color: white;
+  padding-top: 2.5em;
+  font-family: 'OpenSans';
+}
+
+footer p {
+  font-size: 0.75em;
+}
+
+footer .row .row {
+  display: flex;
+}
+
+#footerText{
+  padding-top: 2%;
+}
+
+footer #lastRow{
+  padding-bottom: 2%;
+}
+footer #logos.row .col-6 {
+  padding-left: 2em;
+}
+
+footer #lgpChaImg{
+  margin-right: 3em;
+  padding-right: 1em;
+  height: 20px;
+  width: auto;
+}
+
+footer #upImg{
+  margin-right: 3em;
+  padding-right: 1em;
+  height: 30px;
+  width: auto;
+}
+
+footer #logos.row .col-4 {
+  padding-left: 2em;
+}
+
+footer .row .col-4 {
+  width: 3em;
+  height: 1.5em;
+
+}
+
+footer .row .col-4 i{
+  padding-right: 1em;
+  width: 2.5em;
+  height: 1.5em;
+  float: right;
+}
+
+footer a, footer p {
+  font-size: 12px;
+  font-family: 'OpenSans';
+}
+
+
+footer #links a {
+  padding-right: 0.5em;
+  text-decoration: none;
+  color: white;
+}
+
+
+/*BREADCRUMB*/
+
+.breadcrumb .breadcrumb-item a {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-size: 10pt;
+}
+
+
+/**/
