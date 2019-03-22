@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
 
   </head>
   <body>
@@ -19,10 +20,10 @@
         <a class="navbar-brand" href="#">
           <img src="./images/logo.png" alt="Starlight Software Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="./about.html">about</a>
@@ -60,60 +61,54 @@
       <div class="d-flex justify-content-center">
         <h2>One exclusive project for each team</h2>
       </div>
-      <div class="row">
-        <div class="col-1">
-        </div>
-        <div class="col-10">
-          <div class="row">
-            <div class="col-sm-3" id="paidmydues">
-              <div class="card">
+      <div class="container-fluid content-row">
+        <div class="row">
+            <div class="col-sm-12 col-lg-3"  id="paidmydues">
+              <div class="card h-100">
                 <div style="height:10em"></div>
                 <div class="card-body">
-                  <h5 class="card-title">Paid My Dues</h5>
+                  <h5 class="card-title">Paid My<br> Dues</h5>
                   <p class="card-text">Invisible Cloud // Creativity</p>
                   <p class="card-text second_text">Creation of a digital solution for debt negotiation, originally conceived by Invisible Cloud and developed by the Team Creativity.</p>
-                  <a href="#" class="btn" id="followTeamA">LEARN MORE</a>
+                  <a href="#" class="btn follow" id="followTeamA">LEARN MORE</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-3" id="connectingsharedvices">
-              <div class="card flex">
+            <div class="col-sm-12 col-lg-3"  id="connectingsharedvices">
+              <div class="card h-100">
                 <div style="height:10em"></div>
                 <div class="card-body">
                   <h5 class="card-title">Connecting Sharedvices</h5>
                   <p class="card-text">Deloitte // Ingenuity</p>
                   <p class="card-text second_text">Development of a shared-economy business integration application, devised by Deloitte and produced by Team Ingenuity.</p>
-                  <a href="#" class="btn" id="followTeamB">LEARN MORE</a>
+                  <a href="#" class="btn follow" id="followTeamB">LEARN MORE</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-3" id="boschhomeconfort">
-              <div class="card flex">
+            <div class="col-sm-12 col-lg-3"  id="boschhomeconfort">
+              <div class="card h-100">
                 <div style="height:10em"></div>
                 <div class="card-body">
                   <h5 class="card-title">Bosch Home Confort</h5>
                   <p class="card-text">Bosch // Quality</p>
                   <p class="card-text second_text">Generation of a home comfort monitoring system, headed by Bosch Portugal and evolved by Team Quality.</p>
-                  <a href="#" class="btn" id="followTeamC">LEARN MORE</a>
+                  <a href="#" class="btn follow" id="followTeamC">LEARN MORE</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-3" id="strongstep">
-              <div class="card">
+            <div class="col-sm-12 col-lg-3"  id="strongstep">
+              <div class="card h-100">
                 <div style="height:10em"></div>
                 <div class="card-body">
-                  <h5 class="card-title">Strongstep</h5>
+                  <h5 class="card-title">GDPR Reporter</h5>
                   <p class="card-text">Strongstep // Opportunity</p>
                   <p class="card-text second_text">Elaboration of a multi-platform mobile app to communicate incidents and requests in the business environment, emanated from Strongstep and developed by Team Opportunity.</p>
-                  <a href="#" class="btn" id="followTeamD">LEARN MORE</a>
+                  <a href="#" class="btn follow" id="followTeamD">LEARN MORE</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-1">
-        </div>
-      </div>
     </div>
 
     <div id="companies">
@@ -123,16 +118,16 @@
         <div class="col-5">
           <h2>We deliver ingenious digital solutions for the finest.</h2>
           <p>Our most valuable assets are the trust and recognition of our clients. They are the fundamental element aligned to the center of the company universe. And we are committed 24/7 to transform their Demands into Dreams.</p>
-          <button id="something" type="button" class="btn">LET'S MAKE SOMETHING TOGETHER</button>
+          <a id="something" type="button" class="btn" href="./contacts.html">LET'S MAKE SOMETHING TOGETHER</a>
 
         </div>
         <div class="col-6">
           <div class="row d-flex justify-content-end">
-            <div class="col"><img src="images/invisiblecloud.png"></div>
-            <div class="col"><img src="images/strongstep.png"></div>
+            <div class="col"><a href="https://invisiblecloud.pt/"><img src="images/invisiblecloud.png"></a></div>
+            <div class="col"><a href="https://strongstep.pt/"><img src="images/strongstep.png"></a></div>
             <div class="w-100"></div>
-            <div class="col"><img src="images/deloitte.png"></div>
-            <div class="col"><img src="images/bosch.png"></div>
+            <div class="col"><a href="https://www2.deloitte.com/pt/pt.html"><img src="images/deloitte.png"></a></div>
+            <div class="col"><a href="https://www.bosch.pt/"><img src="images/bosch.png"></a></div>
           </div>
         </div>
       </div>
@@ -157,9 +152,9 @@
         <img src="./images/lgpchallenge.png" alt="LGP Logo" id="lgpChaImg">
         </div>
         <div class="col-4 row d-flex justify-content-end">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-instagram"></i>
+          <a href="https://www.facebook.com/Starlight-Software-344704342807615/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/starlight-software/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/starlightsoftware/?hl=pt"><i class="fab fa-instagram"></i></a>
         </div>
         <div class="col-1">
         </div>
@@ -192,6 +187,6 @@
       </div>
       <div class="col-1">
       </div>
-    </div>  
+    </div>
   </footer>
 </html>

@@ -29,10 +29,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 36pt;
+  font-size: 40pt;
 }
 
 /*NAVBAR*/
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light {
+  border-color: rgb(255,102,203);
+}
 
 #topbar {
   background: url("../images/index_background.png")no-repeat center center fixed;
@@ -89,9 +97,7 @@ a.nav-link {
 }
 
 #about h1{
-  padding-top: 5%;
-  padding-bottom: 10em;
-
+  padding-top: 0.5em;
 }
 
 #arrow_div {
@@ -119,6 +125,9 @@ a.nav-link {
 }
 /*PROJECTS CARDS*/
 
+#projects {
+  padding: 2.5em 0;
+}
 
 #projects .col-1 {
   padding: 0;
@@ -142,6 +151,11 @@ a.nav-link {
   color: rgb(21,21,21);
   font-family: 'Roboto-Bold';
   font-size: 20pt;
+}
+
+#projects .second_text {
+
+  font-size: 0.9em;
 }
 
 
@@ -226,7 +240,7 @@ padding: 2% 5% 8% 5%;
 #companies {
   background-color: #fafafa;
   margin-top: 5em;
-  padding-bottom: 2.5em;
+  padding-bottom: 5em;
 }
 
 #companies div {
@@ -251,14 +265,18 @@ padding: 2% 5% 8% 5%;
   font-size: 24pt;
 }
 
+#companies .row .col-6 .justify-content-end {
+  padding: 0;
+}
+
 /* ABOUT US PAGE */
 
 #about {
   background: url("../images/index_background.png")no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 200px cover;
+  -moz-background-size: 200px cover;
+  -o-background-size: 200px cover;
+  background-size: 200px cover;
   color: white!important;
 }
 
@@ -273,7 +291,16 @@ padding: 2% 5% 8% 5%;
 #aboutText {
   background-color: white;
   color: rgb(21,21,21);
-  padding: 15%;
+  padding: 5% 15% 5% 15%;
+
+}
+
+#aboutUs {
+  padding-bottom: 2.5em;
+}
+
+#aboutUs h1 {
+  font-size: 72pt;
 }
 
 
@@ -362,6 +389,10 @@ footer #upImg{
 
 footer #logos.row .col-4 {
   padding-left: 2em;
+}
+
+footer #logos a {
+  color: white;
 }
 
 footer .row .col-4 {
