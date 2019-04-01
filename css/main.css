@@ -427,7 +427,74 @@ footer #links a {
   font-family: 'OpenSans';
   font-style: italic;
   font-size: 10pt;
+  color: #fff;
 }
 
 
-/**/
+/*Texts*/
+
+#texts {
+  padding-bottom: 10em;
+  color: #000
+}
+
+#texts .col-7 .card-title {
+  color: #e40057;
+  font-size: 12pt;
+}
+
+#texts .col-7 .card-text {
+  color: #000;
+  font-size: 16pt;
+}
+
+#texts .col-7 .second_text {
+  color: #000;
+  font-size: 12pt;
+  padding-top: 2em;
+}
+
+#texts .col-7 .header {
+  padding-top: 3em;
+}
+
+#texts .col-7 .second_text a{
+  color: #e40057;
+  font-size: 12pt;
+}
+
+#texts .col-7 .date {
+  color: #000;
+  font-size: 10pt;
+}
+
+#texts .col-2 .second_text {
+  color: #e40057;
+  font-size: 12pt;
+}
+
+#texts .col-2 {
+  border: #fff;
+  border-radius: 0.25em;
+  background-color: #fff;
+  margin-left: 2em;
+  height: 25em;
+}
+
+#texts .col-2 .post {
+  border-bottom: 1pt solid #000;
+  margin-top: 1.5em;
+}
+
+#texts .col-2 .post .card-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+#texts .col-2 p:first-child {
+  margin: 2em 0 0 0;
+}
+
+#texts .col-9 .card-title {
+  color: #e40057;
+}
