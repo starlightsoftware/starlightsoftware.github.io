@@ -179,24 +179,26 @@ a.nav-link {
   margin-right: 2%;
 }
 #teamA{
-padding: 2% 5% 8% 5%;
+  padding: 2% 5% 8% 5%;
+  margin: 0;
 }
 
 #teamB{
   padding: 8%;
+  margin: 0;
 }
 
 #teamC{
   padding: 8%;
   background-color: rgb(255, 238, 226);
+  margin: 0;
 
 }
 
 #teamD{
   padding: 8%;
+  margin: 0;
   background-color: rgb(241, 87, 87);
-}
-#teamD {
   color: white;
 }
 
@@ -241,10 +243,8 @@ padding: 2% 5% 8% 5%;
   background-color: #fafafa;
   margin-top: 5em;
   padding-bottom: 5em;
-}
-
-#companies div {
   padding-top: 2em;
+  margin-left: 0;
 }
 
 #companies #something {
@@ -269,23 +269,30 @@ padding: 2% 5% 8% 5%;
   padding: 0;
 }
 
+#companies .col-6 .row.d-flex.justify-content-end .col-6 {
+  padding-top: 2em;
+}
+
 /* ABOUT US PAGE */
 
 #about {
   background: url("../images/index_background.png")no-repeat center center fixed;
-  -webkit-background-size: 200px cover;
-  -moz-background-size: 200px cover;
-  -o-background-size: 200px cover;
-  background-size: 200px cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: white!important;
 }
 
 #about .navbar {
-  background-color: inherit!important;
+  background: url("../images/index_background.png")no-repeat center center fixed;
+  background-size: cover;
 }
 
 #about #aboutUs {
-  background-color: inherit!important;
+  background: url("../images/index_background.png")no-repeat center center fixed;
+  background-size: cover;
+
 }
 
 #aboutText {
@@ -297,6 +304,8 @@ padding: 2% 5% 8% 5%;
 
 #aboutUs {
   padding-bottom: 2.5em;
+  margin-right: 0;
+  padding-left: 0;
 }
 
 #aboutUs h1 {
@@ -478,7 +487,7 @@ footer #links a {
   border-radius: 0.25em;
   background-color: #fff;
   margin-left: 2em;
-  height: 25em;
+  height: 30em;
 }
 
 #texts .col-2 .post {
@@ -497,4 +506,20 @@ footer #links a {
 
 #texts .col-9 .card-title {
   color: #e40057;
+}
+
+#texts .col-sm-6.col-lg-4 {
+  padding-bottom: 2em;
+}
+
+@media (min-width: 576px) {
+  #companies .col-5 {
+    padding-left: 2em;
+    margin-right: 1em;
+  }
+
+  .row {
+    margin: 0;
+  }
+
 }
