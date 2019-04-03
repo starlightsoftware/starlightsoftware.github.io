@@ -279,17 +279,6 @@ a.nav-link {
   color: white!important;
 }
 
-#about .navbar {
-  background: url("../images/index_background.png")no-repeat center center fixed;
-  background-size: cover;
-}
-
-#about #aboutUs {
-  background: url("../images/index_background.png")no-repeat center center fixed;
-  background-size: cover;
-
-}
-
 #aboutText {
   background-color: white;
   color: rgb(21,21,21);
