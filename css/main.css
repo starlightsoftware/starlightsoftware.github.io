@@ -441,6 +441,10 @@ footer #links a {
   color: #000
 }
 
+#texts .text_team .row .col-sm-6 {
+  margin-bottom: 2.5em;
+}
+
 #texts .col-7 .card-title {
   color: #e40057;
   font-size: 12pt;
@@ -481,7 +485,7 @@ footer #links a {
   border-radius: 0.25em;
   background-color: #fff;
   margin-left: 2em;
-  height: 30em;
+  height: 50em;
 }
 
 #texts .col-2 .post {
