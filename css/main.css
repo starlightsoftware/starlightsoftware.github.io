@@ -526,3 +526,24 @@ footer #links a {
   }
 
 }
+
+#aboutText .team {
+  padding-bottom: 2.5em;
+}
+
+#aboutText .team h2, #aboutText .team p {
+  padding-bottom: 1em;
+}
+
+#aboutText .team h2, #aboutText .team p {
+  text-align: center;
+}
+
+
+#aboutText .person {
+  padding-left: 2em;
+}
+
+#aboutText .person p {
+  font-size: 0.75rem;
+}
