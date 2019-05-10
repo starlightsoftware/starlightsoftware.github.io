@@ -160,6 +160,10 @@ a.nav-link {
 
 /*PRJECTS PAGE*/
 
+#page_projects p {
+  font-size: 1.2rem;
+}
+
 #page_projects{
   background-color: rgb(45,27,55);
   -webkit-background-size: cover;
