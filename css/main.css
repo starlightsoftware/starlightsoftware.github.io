@@ -161,7 +161,19 @@ a.nav-link {
 /*PRJECTS PAGE*/
 
 #page_projects p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+}
+
+#teamB p {
+  font-size: 1.1rem;
+}
+
+#teamC p {
+  font-size: 1.1rem;
+}
+
+#teamD p {
+  font-size: 1.1rem;
 }
 
 #page_projects{
