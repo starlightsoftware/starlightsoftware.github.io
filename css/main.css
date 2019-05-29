@@ -563,3 +563,9 @@ footer #links a {
 #aboutText .person p {
   font-size: 0.75rem;
 }
+
+
+.img_team{
+  width: 100%;
+  height: auto;
+}
